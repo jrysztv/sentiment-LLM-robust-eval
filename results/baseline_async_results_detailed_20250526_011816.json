@@ -1,0 +1,1268 @@
+{
+  "gpt-4o-mini": {
+    "v1": {
+      "model_name": "gpt-4o-mini",
+      "prompt_variant_id": "v1",
+      "custom_accuracy": 1.0,
+      "consistency_score": 0.5,
+      "weighted_index": 0.85,
+      "error_breakdown": {
+        "adjacent_errors": 0,
+        "base_neutral_errors": 0,
+        "cross_polarity_errors": 0,
+        "extreme_errors": 0,
+        "invalid_predictions": 0,
+        "correct_predictions": 2
+      },
+      "metadata": {
+        "total_samples": 2,
+        "response_metadata": [
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 80,
+              "total_tokens": 87,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 77,
+              "total_tokens": 84,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          }
+        ],
+        "dimensional_consistency": {
+          "formality": 0.5,
+          "phrasing": 0.5,
+          "order": 0.75,
+          "synonyms": 0.75
+        },
+        "overall_consistency": 0.5
+      },
+      "predictions": [
+        "Negative",
+        "Neutral"
+      ],
+      "true_labels": [
+        "Negative",
+        "Neutral"
+      ]
+    },
+    "v2": {
+      "model_name": "gpt-4o-mini",
+      "prompt_variant_id": "v2",
+      "custom_accuracy": 1.0,
+      "consistency_score": 0.5,
+      "weighted_index": 0.85,
+      "error_breakdown": {
+        "adjacent_errors": 0,
+        "base_neutral_errors": 0,
+        "cross_polarity_errors": 0,
+        "extreme_errors": 0,
+        "invalid_predictions": 0,
+        "correct_predictions": 2
+      },
+      "metadata": {
+        "total_samples": 2,
+        "response_metadata": [
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 80,
+              "total_tokens": 87,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 77,
+              "total_tokens": 84,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          }
+        ],
+        "dimensional_consistency": {
+          "formality": 0.5,
+          "phrasing": 0.5,
+          "order": 0.75,
+          "synonyms": 0.75
+        },
+        "overall_consistency": 0.5
+      },
+      "predictions": [
+        "Negative",
+        "Neutral"
+      ],
+      "true_labels": [
+        "Negative",
+        "Neutral"
+      ]
+    },
+    "v3": {
+      "model_name": "gpt-4o-mini",
+      "prompt_variant_id": "v3",
+      "custom_accuracy": 0.9444444444444444,
+      "consistency_score": 0.5,
+      "weighted_index": 0.8111111111111111,
+      "error_breakdown": {
+        "adjacent_errors": 0,
+        "base_neutral_errors": 1,
+        "cross_polarity_errors": 0,
+        "extreme_errors": 0,
+        "invalid_predictions": 0,
+        "correct_predictions": 1
+      },
+      "metadata": {
+        "total_samples": 2,
+        "response_metadata": [
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 80,
+              "total_tokens": 87,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 77,
+              "total_tokens": 84,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          }
+        ],
+        "dimensional_consistency": {
+          "formality": 0.5,
+          "phrasing": 0.5,
+          "order": 0.75,
+          "synonyms": 0.75
+        },
+        "overall_consistency": 0.5
+      },
+      "predictions": [
+        "Neutral",
+        "Neutral"
+      ],
+      "true_labels": [
+        "Negative",
+        "Neutral"
+      ]
+    },
+    "v4": {
+      "model_name": "gpt-4o-mini",
+      "prompt_variant_id": "v4",
+      "custom_accuracy": 1.0,
+      "consistency_score": 0.5,
+      "weighted_index": 0.85,
+      "error_breakdown": {
+        "adjacent_errors": 0,
+        "base_neutral_errors": 0,
+        "cross_polarity_errors": 0,
+        "extreme_errors": 0,
+        "invalid_predictions": 0,
+        "correct_predictions": 2
+      },
+      "metadata": {
+        "total_samples": 2,
+        "response_metadata": [
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 80,
+              "total_tokens": 87,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 77,
+              "total_tokens": 84,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          }
+        ],
+        "dimensional_consistency": {
+          "formality": 0.5,
+          "phrasing": 0.5,
+          "order": 0.75,
+          "synonyms": 0.75
+        },
+        "overall_consistency": 0.5
+      },
+      "predictions": [
+        "Negative",
+        "Neutral"
+      ],
+      "true_labels": [
+        "Negative",
+        "Neutral"
+      ]
+    },
+    "v5": {
+      "model_name": "gpt-4o-mini",
+      "prompt_variant_id": "v5",
+      "custom_accuracy": 1.0,
+      "consistency_score": 0.5,
+      "weighted_index": 0.85,
+      "error_breakdown": {
+        "adjacent_errors": 0,
+        "base_neutral_errors": 0,
+        "cross_polarity_errors": 0,
+        "extreme_errors": 0,
+        "invalid_predictions": 0,
+        "correct_predictions": 2
+      },
+      "metadata": {
+        "total_samples": 2,
+        "response_metadata": [
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 82,
+              "total_tokens": 89,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 79,
+              "total_tokens": 86,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          }
+        ],
+        "dimensional_consistency": {
+          "formality": 0.5,
+          "phrasing": 0.5,
+          "order": 0.75,
+          "synonyms": 0.75
+        },
+        "overall_consistency": 0.5
+      },
+      "predictions": [
+        "Negative",
+        "Neutral"
+      ],
+      "true_labels": [
+        "Negative",
+        "Neutral"
+      ]
+    },
+    "v6": {
+      "model_name": "gpt-4o-mini",
+      "prompt_variant_id": "v6",
+      "custom_accuracy": 1.0,
+      "consistency_score": 0.5,
+      "weighted_index": 0.85,
+      "error_breakdown": {
+        "adjacent_errors": 0,
+        "base_neutral_errors": 0,
+        "cross_polarity_errors": 0,
+        "extreme_errors": 0,
+        "invalid_predictions": 0,
+        "correct_predictions": 2
+      },
+      "metadata": {
+        "total_samples": 2,
+        "response_metadata": [
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 82,
+              "total_tokens": 89,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 79,
+              "total_tokens": 86,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          }
+        ],
+        "dimensional_consistency": {
+          "formality": 0.5,
+          "phrasing": 0.5,
+          "order": 0.75,
+          "synonyms": 0.75
+        },
+        "overall_consistency": 0.5
+      },
+      "predictions": [
+        "Negative",
+        "Neutral"
+      ],
+      "true_labels": [
+        "Negative",
+        "Neutral"
+      ]
+    },
+    "v7": {
+      "model_name": "gpt-4o-mini",
+      "prompt_variant_id": "v7",
+      "custom_accuracy": 0.9444444444444444,
+      "consistency_score": 0.5,
+      "weighted_index": 0.8111111111111111,
+      "error_breakdown": {
+        "adjacent_errors": 0,
+        "base_neutral_errors": 1,
+        "cross_polarity_errors": 0,
+        "extreme_errors": 0,
+        "invalid_predictions": 0,
+        "correct_predictions": 1
+      },
+      "metadata": {
+        "total_samples": 2,
+        "response_metadata": [
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 82,
+              "total_tokens": 89,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 79,
+              "total_tokens": 86,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          }
+        ],
+        "dimensional_consistency": {
+          "formality": 0.5,
+          "phrasing": 0.5,
+          "order": 0.75,
+          "synonyms": 0.75
+        },
+        "overall_consistency": 0.5
+      },
+      "predictions": [
+        "Neutral",
+        "Neutral"
+      ],
+      "true_labels": [
+        "Negative",
+        "Neutral"
+      ]
+    },
+    "v8": {
+      "model_name": "gpt-4o-mini",
+      "prompt_variant_id": "v8",
+      "custom_accuracy": 1.0,
+      "consistency_score": 0.5,
+      "weighted_index": 0.85,
+      "error_breakdown": {
+        "adjacent_errors": 0,
+        "base_neutral_errors": 0,
+        "cross_polarity_errors": 0,
+        "extreme_errors": 0,
+        "invalid_predictions": 0,
+        "correct_predictions": 2
+      },
+      "metadata": {
+        "total_samples": 2,
+        "response_metadata": [
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 82,
+              "total_tokens": 89,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 79,
+              "total_tokens": 86,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          }
+        ],
+        "dimensional_consistency": {
+          "formality": 0.5,
+          "phrasing": 0.5,
+          "order": 0.75,
+          "synonyms": 0.75
+        },
+        "overall_consistency": 0.5
+      },
+      "predictions": [
+        "Negative",
+        "Neutral"
+      ],
+      "true_labels": [
+        "Negative",
+        "Neutral"
+      ]
+    },
+    "v9": {
+      "model_name": "gpt-4o-mini",
+      "prompt_variant_id": "v9",
+      "custom_accuracy": 1.0,
+      "consistency_score": 0.5,
+      "weighted_index": 0.85,
+      "error_breakdown": {
+        "adjacent_errors": 0,
+        "base_neutral_errors": 0,
+        "cross_polarity_errors": 0,
+        "extreme_errors": 0,
+        "invalid_predictions": 0,
+        "correct_predictions": 2
+      },
+      "metadata": {
+        "total_samples": 2,
+        "response_metadata": [
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 79,
+              "total_tokens": 86,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 76,
+              "total_tokens": 83,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          }
+        ],
+        "dimensional_consistency": {
+          "formality": 0.5,
+          "phrasing": 0.5,
+          "order": 0.75,
+          "synonyms": 0.75
+        },
+        "overall_consistency": 0.5
+      },
+      "predictions": [
+        "Negative",
+        "Neutral"
+      ],
+      "true_labels": [
+        "Negative",
+        "Neutral"
+      ]
+    },
+    "v10": {
+      "model_name": "gpt-4o-mini",
+      "prompt_variant_id": "v10",
+      "custom_accuracy": 1.0,
+      "consistency_score": 0.5,
+      "weighted_index": 0.85,
+      "error_breakdown": {
+        "adjacent_errors": 0,
+        "base_neutral_errors": 0,
+        "cross_polarity_errors": 0,
+        "extreme_errors": 0,
+        "invalid_predictions": 0,
+        "correct_predictions": 2
+      },
+      "metadata": {
+        "total_samples": 2,
+        "response_metadata": [
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 80,
+              "total_tokens": 87,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 77,
+              "total_tokens": 84,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          }
+        ],
+        "dimensional_consistency": {
+          "formality": 0.5,
+          "phrasing": 0.5,
+          "order": 0.75,
+          "synonyms": 0.75
+        },
+        "overall_consistency": 0.5
+      },
+      "predictions": [
+        "Negative",
+        "Neutral"
+      ],
+      "true_labels": [
+        "Negative",
+        "Neutral"
+      ]
+    },
+    "v11": {
+      "model_name": "gpt-4o-mini",
+      "prompt_variant_id": "v11",
+      "custom_accuracy": 0.9444444444444444,
+      "consistency_score": 0.5,
+      "weighted_index": 0.8111111111111111,
+      "error_breakdown": {
+        "adjacent_errors": 0,
+        "base_neutral_errors": 1,
+        "cross_polarity_errors": 0,
+        "extreme_errors": 0,
+        "invalid_predictions": 0,
+        "correct_predictions": 1
+      },
+      "metadata": {
+        "total_samples": 2,
+        "response_metadata": [
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 80,
+              "total_tokens": 87,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 77,
+              "total_tokens": 84,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          }
+        ],
+        "dimensional_consistency": {
+          "formality": 0.5,
+          "phrasing": 0.5,
+          "order": 0.75,
+          "synonyms": 0.75
+        },
+        "overall_consistency": 0.5
+      },
+      "predictions": [
+        "Neutral",
+        "Neutral"
+      ],
+      "true_labels": [
+        "Negative",
+        "Neutral"
+      ]
+    },
+    "v12": {
+      "model_name": "gpt-4o-mini",
+      "prompt_variant_id": "v12",
+      "custom_accuracy": 1.0,
+      "consistency_score": 0.5,
+      "weighted_index": 0.85,
+      "error_breakdown": {
+        "adjacent_errors": 0,
+        "base_neutral_errors": 0,
+        "cross_polarity_errors": 0,
+        "extreme_errors": 0,
+        "invalid_predictions": 0,
+        "correct_predictions": 2
+      },
+      "metadata": {
+        "total_samples": 2,
+        "response_metadata": [
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 81,
+              "total_tokens": 88,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 78,
+              "total_tokens": 85,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          }
+        ],
+        "dimensional_consistency": {
+          "formality": 0.5,
+          "phrasing": 0.5,
+          "order": 0.75,
+          "synonyms": 0.75
+        },
+        "overall_consistency": 0.5
+      },
+      "predictions": [
+        "Negative",
+        "Neutral"
+      ],
+      "true_labels": [
+        "Negative",
+        "Neutral"
+      ]
+    },
+    "v13": {
+      "model_name": "gpt-4o-mini",
+      "prompt_variant_id": "v13",
+      "custom_accuracy": 1.0,
+      "consistency_score": 0.5,
+      "weighted_index": 0.85,
+      "error_breakdown": {
+        "adjacent_errors": 0,
+        "base_neutral_errors": 0,
+        "cross_polarity_errors": 0,
+        "extreme_errors": 0,
+        "invalid_predictions": 0,
+        "correct_predictions": 2
+      },
+      "metadata": {
+        "total_samples": 2,
+        "response_metadata": [
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 79,
+              "total_tokens": 86,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 76,
+              "total_tokens": 83,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          }
+        ],
+        "dimensional_consistency": {
+          "formality": 0.5,
+          "phrasing": 0.5,
+          "order": 0.75,
+          "synonyms": 0.75
+        },
+        "overall_consistency": 0.5
+      },
+      "predictions": [
+        "Negative",
+        "Neutral"
+      ],
+      "true_labels": [
+        "Negative",
+        "Neutral"
+      ]
+    },
+    "v14": {
+      "model_name": "gpt-4o-mini",
+      "prompt_variant_id": "v14",
+      "custom_accuracy": 1.0,
+      "consistency_score": 0.5,
+      "weighted_index": 0.85,
+      "error_breakdown": {
+        "adjacent_errors": 0,
+        "base_neutral_errors": 0,
+        "cross_polarity_errors": 0,
+        "extreme_errors": 0,
+        "invalid_predictions": 0,
+        "correct_predictions": 2
+      },
+      "metadata": {
+        "total_samples": 2,
+        "response_metadata": [
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 79,
+              "total_tokens": 86,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 76,
+              "total_tokens": 83,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          }
+        ],
+        "dimensional_consistency": {
+          "formality": 0.5,
+          "phrasing": 0.5,
+          "order": 0.75,
+          "synonyms": 0.75
+        },
+        "overall_consistency": 0.5
+      },
+      "predictions": [
+        "Negative",
+        "Neutral"
+      ],
+      "true_labels": [
+        "Negative",
+        "Neutral"
+      ]
+    },
+    "v15": {
+      "model_name": "gpt-4o-mini",
+      "prompt_variant_id": "v15",
+      "custom_accuracy": 1.0,
+      "consistency_score": 0.5,
+      "weighted_index": 0.85,
+      "error_breakdown": {
+        "adjacent_errors": 0,
+        "base_neutral_errors": 0,
+        "cross_polarity_errors": 0,
+        "extreme_errors": 0,
+        "invalid_predictions": 0,
+        "correct_predictions": 2
+      },
+      "metadata": {
+        "total_samples": 2,
+        "response_metadata": [
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 80,
+              "total_tokens": 87,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 77,
+              "total_tokens": 84,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          }
+        ],
+        "dimensional_consistency": {
+          "formality": 0.5,
+          "phrasing": 0.5,
+          "order": 0.75,
+          "synonyms": 0.75
+        },
+        "overall_consistency": 0.5
+      },
+      "predictions": [
+        "Negative",
+        "Neutral"
+      ],
+      "true_labels": [
+        "Negative",
+        "Neutral"
+      ]
+    },
+    "v16": {
+      "model_name": "gpt-4o-mini",
+      "prompt_variant_id": "v16",
+      "custom_accuracy": 1.0,
+      "consistency_score": 0.5,
+      "weighted_index": 0.85,
+      "error_breakdown": {
+        "adjacent_errors": 0,
+        "base_neutral_errors": 0,
+        "cross_polarity_errors": 0,
+        "extreme_errors": 0,
+        "invalid_predictions": 0,
+        "correct_predictions": 2
+      },
+      "metadata": {
+        "total_samples": 2,
+        "response_metadata": [
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 80,
+              "total_tokens": 87,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 77,
+              "total_tokens": 84,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          }
+        ],
+        "dimensional_consistency": {
+          "formality": 0.5,
+          "phrasing": 0.5,
+          "order": 0.75,
+          "synonyms": 0.75
+        },
+        "overall_consistency": 0.5
+      },
+      "predictions": [
+        "Negative",
+        "Neutral"
+      ],
+      "true_labels": [
+        "Negative",
+        "Neutral"
+      ]
+    }
+  }
+}

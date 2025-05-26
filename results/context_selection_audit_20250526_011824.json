@@ -1,0 +1,162 @@
+{
+  "context_selection_metadata": {
+    "timestamp": "2025-05-26T01:18:24.255940",
+    "selection_strategy": "length_diversity_plus_tfidf",
+    "data_split_used": "train",
+    "total_train_samples": 8544,
+    "selected_examples_per_label": 3,
+    "total_context_examples": 15,
+    "validation_split_used": "validation",
+    "test_samples": 2,
+    "contamination_check": "NO_CONTAMINATION_DETECTED"
+  },
+  "selected_context_examples": {
+    "Very Negative": [
+      {
+        "text": "obvious , obnoxious and didactic burlesque .",
+        "label": "Very Negative",
+        "length_category": "short",
+        "tfidf_dissimilarity_score": 1.0,
+        "selection_reason": "first_selection_short_text"
+      },
+      {
+        "text": "final verdict : you 've seen it all before .",
+        "label": "Very Negative",
+        "length_category": "medium",
+        "tfidf_dissimilarity_score": 1.0,
+        "selection_reason": "high_dissimilarity_medium_text"
+      },
+      {
+        "text": "lacks the inspiration of the original and has a bloated plot that stretches the running time about 10 minutes past a child 's interest and an adult 's patience .",
+        "label": "Very Negative",
+        "length_category": "long",
+        "tfidf_dissimilarity_score": 1.0,
+        "selection_reason": "high_dissimilarity_long_text"
+      }
+    ],
+    "Negative": [
+      {
+        "text": "its one-sidedness ... flirts with propaganda .",
+        "label": "Negative",
+        "length_category": "short",
+        "tfidf_dissimilarity_score": 1.0,
+        "selection_reason": "first_selection_short_text"
+      },
+      {
+        "text": "apparently reassembled from the cutting-room floor of any given daytime soap .",
+        "label": "Negative",
+        "length_category": "medium",
+        "tfidf_dissimilarity_score": 1.0,
+        "selection_reason": "high_dissimilarity_medium_text"
+      },
+      {
+        "text": "they presume their audience wo n't sit still for a sociology lesson , however entertainingly presented , so they trot out the conventional science-fiction elements of bug-eyed monsters and futuristic women in skimpy clothes .",
+        "label": "Negative",
+        "length_category": "long",
+        "tfidf_dissimilarity_score": 1.0,
+        "selection_reason": "high_dissimilarity_long_text"
+      }
+    ],
+    "Neutral": [
+      {
+        "text": "nothing more than a run-of-the-mill action flick .",
+        "label": "Neutral",
+        "length_category": "short",
+        "tfidf_dissimilarity_score": 1.0,
+        "selection_reason": "first_selection_short_text"
+      },
+      {
+        "text": "the entire movie is filled with deja vu moments .",
+        "label": "Neutral",
+        "length_category": "medium",
+        "tfidf_dissimilarity_score": 1.0,
+        "selection_reason": "high_dissimilarity_medium_text"
+      },
+      {
+        "text": "analyze that regurgitates and waters down many of the previous film 's successes , with a few new swings thrown in .",
+        "label": "Neutral",
+        "length_category": "long",
+        "tfidf_dissimilarity_score": 1.0,
+        "selection_reason": "high_dissimilarity_long_text"
+      }
+    ],
+    "Positive": [
+      {
+        "text": "another entertaining romp from robert rodriguez .",
+        "label": "Positive",
+        "length_category": "short",
+        "tfidf_dissimilarity_score": 1.0,
+        "selection_reason": "first_selection_short_text"
+      },
+      {
+        "text": "this is a visually stunning rumination on love , memory , history and the war between art and commerce .",
+        "label": "Positive",
+        "length_category": "medium",
+        "tfidf_dissimilarity_score": 1.0,
+        "selection_reason": "high_dissimilarity_medium_text"
+      },
+      {
+        "text": "the santa clause 2 proves itself a more streamlined and thought out encounter than the original could ever have hoped to be .",
+        "label": "Positive",
+        "length_category": "long",
+        "tfidf_dissimilarity_score": 1.0,
+        "selection_reason": "high_dissimilarity_long_text"
+      }
+    ],
+    "Very Positive": [
+      {
+        "text": "amazing !",
+        "label": "Very Positive",
+        "length_category": "short",
+        "tfidf_dissimilarity_score": 1.0,
+        "selection_reason": "first_selection_short_text"
+      },
+      {
+        "text": "a stirring , funny and finally transporting re-imagining of beauty and the beast and 1930s horror films",
+        "label": "Very Positive",
+        "length_category": "medium",
+        "tfidf_dissimilarity_score": 1.0,
+        "selection_reason": "high_dissimilarity_medium_text"
+      },
+      {
+        "text": "as quiet , patient and tenacious as mr. lopez himself , who approaches his difficult , endless work with remarkable serenity and discipline .",
+        "label": "Very Positive",
+        "length_category": "long",
+        "tfidf_dissimilarity_score": 1.0,
+        "selection_reason": "high_dissimilarity_long_text"
+      }
+    ]
+  },
+  "contamination_validation": {
+    "overlap_check_method": "md5_hash_comparison",
+    "overlapping_examples": 0,
+    "validation_status": "NO_CONTAMINATION_DETECTED",
+    "test_sample_hashes": [
+      "b212dc623d3858f8ddad7782414d314c",
+      "f5b08da30a9823b86f96eb3477718931"
+    ],
+    "context_example_hashes": [
+      "d62b3ba474ff45b67c613d58ff22f9be",
+      "b2c1fa62a39f8fbeb1b64935bf025786",
+      "3794fbad3fd35bb9fffaf7e4f2ae5c8b",
+      "4aaa287a254ff6b05b3795da6d04a50c",
+      "60d47e82a73c58c14b12b57451b0498d",
+      "50bbea46280d48362f3a2a6fa5648546",
+      "baa53edecd4f3e2fedbadfe8e31330ab",
+      "190558a17b180e0a295ea809c47df3aa",
+      "5699c1d930ba97dcd37b022292a4e100",
+      "d6fbd6993779736aec8277e45ef4df83",
+      "71eab31e5eb73d179fb9ee7d74e84a84",
+      "c6f53ce476e23293d2c7f468dae71d63",
+      "ba6655edad7894a618bd7ef82a40e7e5",
+      "067a7add1b38c365932316ca7946e650",
+      "0e3a754083c563ffc6895f805771af15"
+    ],
+    "overlapping_hashes": []
+  },
+  "tfidf_analysis": {
+    "vectorizer_params": {
+      "analyzer": "word",
+      "binary": false,
+      "decode_error": "strict",
+      "dtype": 

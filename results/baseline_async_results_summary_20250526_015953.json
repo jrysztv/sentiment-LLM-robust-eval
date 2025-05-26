@@ -1,0 +1,62 @@
+{
+  "gpt-4.1": {
+    "performance_summary": {
+      "total_combinations": 16,
+      "accuracy_stats": {
+        "mean": 0.9555902777777778,
+        "std": 0.0016662808195341155,
+        "min": 0.9511111111111111,
+        "max": 0.9577777777777777
+      },
+      "consistency_stats": {
+        "mean": 0.66,
+        "std": 0.0,
+        "min": 0.66,
+        "max": 0.66
+      },
+      "weighted_index_stats": {
+        "mean": 0.8669131944444444,
+        "std": 0.0011663965736738835,
+        "min": 0.8637777777777778,
+        "max": 0.8684444444444444
+      }
+    },
+    "best_combination": {
+      "variant_id": "v6",
+      "custom_accuracy": 0.9577777777777777,
+      "consistency_score": 0.66,
+      "weighted_index": 0.8684444444444444
+    },
+    "total_variants_tested": 16
+  },
+  "gpt-4o-mini": {
+    "performance_summary": {
+      "total_combinations": 16,
+      "accuracy_stats": {
+        "mean": 0.9507986111111111,
+        "std": 0.005246863652631007,
+        "min": 0.94,
+        "max": 0.9577777777777777
+      },
+      "consistency_stats": {
+        "mean": 0.68,
+        "std": 0.0,
+        "min": 0.68,
+        "max": 0.68
+      },
+      "weighted_index_stats": {
+        "mean": 0.8695590277777777,
+        "std": 0.003672804556841707,
+        "min": 0.8619999999999999,
+        "max": 0.8744444444444444
+      }
+    },
+    "best_combination": {
+      "variant_id": "v15",
+      "custom_accuracy": 0.9577777777777777,
+      "consistency_score": 0.68,
+      "weighted_index": 0.8744444444444444
+    },
+    "total_variants_tested": 16
+  }
+}

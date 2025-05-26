@@ -1,0 +1,59 @@
+[tool.poetry]
+name = "deep-learning-final-assignment"
+version = "0.1.0"
+description = ""
+authors = ["Istvan Peter Jaray <istvanpeterjaray@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.3"
+httpx = "^0.28.1"
+requests = "^2.32.3"
+jupyter = "^1.1.1"
+langchain = "^0.3.25"
+ollama = "^0.4.8"
+transformers = "^4.52.3"
+datasets = "^3.6.0"
+torch = "^2.7.0"
+torchvision = "^0.22.0"
+torchaudio = "^2.7.0"
+scikit-learn = "^1.6.1"
+sentence-transformers = "^4.1.0"
+rouge-score = "^0.1.2"
+openai = "^1.82.0"
+python-dotenv = "^1.1.0"
+nltk = "^3.9.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+pytest-cov = "^6.1.1"
+pytest-mock = "^3.14.0"
+pytest-asyncio = "^0.26.0"
+peft = "^0.15.2"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py", "*_test.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+asyncio_default_fixture_loop_scope = "function"
+addopts = [
+    "--strict-markers",
+    "--strict-config",
+    "--verbose",
+    "--cov=deep_learning_final_assignment",
+    "--cov-report=term-missing",
+    "--cov-report=html",
+    "--cov-fail-under=80"
+]
+markers = [
+    "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+    "integration: marks tests as integration tests",
+    "unit: marks tests as unit tests",
+]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

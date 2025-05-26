@@ -1,0 +1,39 @@
+{
+  "enhanced_variants_metadata": {
+    "timestamp": "2025-05-26T01:19:50.290120",
+    "total_models": 1,
+    "variants_per_model": 2
+  },
+  "best_baseline_combinations": {
+    "gpt-4o-mini": {
+      "variant_id": "v1",
+      "weighted_index": 0.85,
+      "custom_accuracy": 1.0,
+      "consistency_score": 0.5
+    }
+  },
+  "context_enhanced_variants": {
+    "gpt-4o-mini": {
+      "base_variant": {
+        "variant_id": "v1",
+        "weighted_index": 0.85,
+        "custom_accuracy": 1.0,
+        "consistency_score": 0.5
+      },
+      "prefix_context": {
+        "variant_id": "v1_prefix",
+        "template_structure": "[CONTEXT_EXAMPLES] + [ORIGINAL_PROMPT]",
+        "full_template": "Here are examples of sentiment classification:\n\nVery Negative: 'obvious , obnoxious and didactic burlesque .'\nVery Negative: 'final verdict : you 've seen it all before .'\nVery Negative: 'lacks the inspiration of the original and has a bloated plot that stretches the running time about 10 minutes past a child 's interest and an adult 's patience .'\nNegative: 'its one-sidedness ... flirts with propaganda .'\nNegative: 'apparently reassembled from the cutting-room floor of any given daytime soap .'\nNegative: 'they presume their audience wo n't sit still for a sociology lesson , however entertainingly presented , so they trot out the conventional science-fiction elements of bug-eyed monsters and futuristic women in skimpy clothes .'\nNeutral: 'nothing more than a run-of-the-mill action flick .'\nNeutral: 'the entire movie is filled with deja vu moments .'\nNeutral: 'analyze that regurgitates and waters down many of the previous film 's successes , with a few new swings thrown in .'\nPositive: 'another entertaining romp from robert rodriguez .'\nPositive: 'this is a visually stunning rumination on love , memory , history and the war between art and commerce .'\nPositive: 'the santa clause 2 proves itself a more streamlined and thought out encounter than the original could ever have hoped to be .'\nVery Positive: 'amazing !'\nVery Positive: 'a stirring , funny and finally transporting re-imagining of beauty and the beast and 1930s horror films'\nVery Positive: 'as quiet , patient and tenacious as mr. lopez himself , who approaches his difficult , endless work with remarkable serenity and discipline .'\n\nAnalyze the sentiment of the following text and classify it as Very Negative, Negative, Neutral, Positive, or Very Positive. Return your response in JSON format with the key \"sentiment\" and the classified value.\n\nText: {input_text}\n\nResponse format: {{\"sentiment\": \"Very Negative|Negative|Neutral|Positive|Very Positive\"}}",
+        "context_position": "prefix",
+        "base_variant": "v1"
+      },
+      "suffix_context": {
+        "variant_id": "v1_suffix",
+        "template_structure": "[ORIGINAL_PROMPT] + [CONTEXT_EXAMPLES]",
+        "full_template": "Analyze the sentiment of the following text and classify it as Very Negative, Negative, Neutral, Positive, or Very Positive. Return your response in JSON format with the key \"sentiment\" and the classified value.\n\nText: {input_text}\n\nResponse format: {{\"sentiment\": \"Very Negative|Negative|Neutral|Positive|Very Positive\"}}\n\nHere are examples of sentiment classification:\n\nVery Negative: 'obvious , obnoxious and didactic burlesque .'\nVery Negative: 'final verdict : you 've seen it all before .'\nVery Negative: 'lacks the inspiration of the original and has a bloated plot that stretches the running time about 10 minutes past a child 's interest and an adult 's patience .'\nNegative: 'its one-sidedness ... flirts with propaganda .'\nNegative: 'apparently reassembled from the cutting-room floor of any given daytime soap .'\nNegative: 'they presume their audience wo n't sit still for a sociology lesson , however entertainingly presented , so they trot out the conventional science-fiction elements of bug-eyed monsters and futuristic women in skimpy clothes .'\nNeutral: 'nothing more than a run-of-the-mill action flick .'\nNeutral: 'the entire movie is filled with deja vu moments .'\nNeutral: 'analyze that regurgitates and waters down many of the previous film 's successes , with a few new swings thrown in .'\nPositive: 'another entertaining romp from robert rodriguez .'\nPositive: 'this is a visually stunning rumination on love , memory , history and the war between art and commerce .'\nPositive: 'the santa clause 2 proves itself a more streamlined and thought out encounter than the original could ever have hoped to be .'\nVery Positive: 'amazing !'\nVery Positive: 'a stirring , funny and finally transporting re-imagining of beauty and the beast and 1930s horror films'\nVery Positive: 'as quiet , patient and tenacious as mr. lopez himself , who approaches his difficult , endless work with remarkable serenity and discipline .'",
+        "context_position": "suffix",
+        "base_variant": "v1"
+      }
+    }
+  }
+}

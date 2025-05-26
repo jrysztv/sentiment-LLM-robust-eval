@@ -1,0 +1,232 @@
+{
+  "context_selection_metadata": {
+    "timestamp": "2025-05-26T02:00:02.840582",
+    "selection_strategy": "length_diversity_plus_tfidf",
+    "data_split_used": "train",
+    "total_train_samples": 8544,
+    "selected_examples_per_label": 3,
+    "total_context_examples": 15,
+    "validation_split_used": "validation",
+    "test_samples": 50,
+    "contamination_check": "NO_CONTAMINATION_DETECTED"
+  },
+  "selected_context_examples": {
+    "Very Negative": [
+      {
+        "text": "obvious , obnoxious and didactic burlesque .",
+        "label": "Very Negative",
+        "length_category": "short",
+        "tfidf_dissimilarity_score": 1.0,
+        "selection_reason": "first_selection_short_text"
+      },
+      {
+        "text": "final verdict : you 've seen it all before .",
+        "label": "Very Negative",
+        "length_category": "medium",
+        "tfidf_dissimilarity_score": 1.0,
+        "selection_reason": "high_dissimilarity_medium_text"
+      },
+      {
+        "text": "lacks the inspiration of the original and has a bloated plot that stretches the running time about 10 minutes past a child 's interest and an adult 's patience .",
+        "label": "Very Negative",
+        "length_category": "long",
+        "tfidf_dissimilarity_score": 1.0,
+        "selection_reason": "high_dissimilarity_long_text"
+      }
+    ],
+    "Negative": [
+      {
+        "text": "its one-sidedness ... flirts with propaganda .",
+        "label": "Negative",
+        "length_category": "short",
+        "tfidf_dissimilarity_score": 1.0,
+        "selection_reason": "first_selection_short_text"
+      },
+      {
+        "text": "apparently reassembled from the cutting-room floor of any given daytime soap .",
+        "label": "Negative",
+        "length_category": "medium",
+        "tfidf_dissimilarity_score": 1.0,
+        "selection_reason": "high_dissimilarity_medium_text"
+      },
+      {
+        "text": "they presume their audience wo n't sit still for a sociology lesson , however entertainingly presented , so they trot out the conventional science-fiction elements of bug-eyed monsters and futuristic women in skimpy clothes .",
+        "label": "Negative",
+        "length_category": "long",
+        "tfidf_dissimilarity_score": 1.0,
+        "selection_reason": "high_dissimilarity_long_text"
+      }
+    ],
+    "Neutral": [
+      {
+        "text": "nothing more than a run-of-the-mill action flick .",
+        "label": "Neutral",
+        "length_category": "short",
+        "tfidf_dissimilarity_score": 1.0,
+        "selection_reason": "first_selection_short_text"
+      },
+      {
+        "text": "the entire movie is filled with deja vu moments .",
+        "label": "Neutral",
+        "length_category": "medium",
+        "tfidf_dissimilarity_score": 1.0,
+        "selection_reason": "high_dissimilarity_medium_text"
+      },
+      {
+        "text": "analyze that regurgitates and waters down many of the previous film 's successes , with a few new swings thrown in .",
+        "label": "Neutral",
+        "length_category": "long",
+        "tfidf_dissimilarity_score": 1.0,
+        "selection_reason": "high_dissimilarity_long_text"
+      }
+    ],
+    "Positive": [
+      {
+        "text": "another entertaining romp from robert rodriguez .",
+        "label": "Positive",
+        "length_category": "short",
+        "tfidf_dissimilarity_score": 1.0,
+        "selection_reason": "first_selection_short_text"
+      },
+      {
+        "text": "this is a visually stunning rumination on love , memory , history and the war between art and commerce .",
+        "label": "Positive",
+        "length_category": "medium",
+        "tfidf_dissimilarity_score": 1.0,
+        "selection_reason": "high_dissimilarity_medium_text"
+      },
+      {
+        "text": "the santa clause 2 proves itself a more streamlined and thought out encounter than the original could ever have hoped to be .",
+        "label": "Positive",
+        "length_category": "long",
+        "tfidf_dissimilarity_score": 1.0,
+        "selection_reason": "high_dissimilarity_long_text"
+      }
+    ],
+    "Very Positive": [
+      {
+        "text": "amazing !",
+        "label": "Very Positive",
+        "length_category": "short",
+        "tfidf_dissimilarity_score": 1.0,
+        "selection_reason": "first_selection_short_text"
+      },
+      {
+        "text": "a stirring , funny and finally transporting re-imagining of beauty and the beast and 1930s horror films",
+        "label": "Very Positive",
+        "length_category": "medium",
+        "tfidf_dissimilarity_score": 1.0,
+        "selection_reason": "high_dissimilarity_medium_text"
+      },
+      {
+        "text": "as quiet , patient and tenacious as mr. lopez himself , who approaches his difficult , endless work with remarkable serenity and discipline .",
+        "label": "Very Positive",
+        "length_category": "long",
+        "tfidf_dissimilarity_score": 1.0,
+        "selection_reason": "high_dissimilarity_long_text"
+      }
+    ]
+  },
+  "contamination_validation": {
+    "overlap_check_method": "md5_hash_comparison",
+    "overlapping_examples": 0,
+    "validation_status": "NO_CONTAMINATION_DETECTED",
+    "test_sample_hashes": [
+      "f0c1795daeff9b0635b1d6c7cc075025",
+      "fbb4ec173fa02d722fc337cc4833ef28",
+      "362e76409e9104c810ba4efdeffbfea5",
+      "54908fd1a44ace96f5ef0a35dc1afef4",
+      "569892b3b99770a0f993b7867b705f90",
+      "718bdc6ae7fea0ccde79df3693e137fa",
+      "379951c472511296df836a2df512fdaf",
+      "d8ee6be3947a252c98e80f87ed4c359b",
+      "b4ae7ea1e6df27a03d31a1caa2d510a4",
+      "91100bd314103aebd5e66ea1f42beffc",
+      "178c6febc02263428f1e3f7dc0d708da",
+      "e6d90834a0e7b1b13d0bd847addd72c3",
+      "01dda23ee3f7780eeeec3b893f987452",
+      "8b00c9cb3e63ce3970bfe1cba2af09ed",
+      "fc28eb6a7e8ea0ec75550eb2df436453",
+      "eafd2091fb8da8867cc8e6703b3cfe40",
+      "4727a60a72a2833d01ced7281ce8663d",
+      "311b6643ec7bfdacaf14f82f6673b3fb",
+      "a37935178332175ba12c7cf2b749b914",
+      "ff7d6130315343042eed8b07e202fb0c",
+      "d8bc5e794d7c940e5def0007874c6d35",
+      "f467608707683acffa0d9c4741423fe0",
+      "588232dfc7f223026915feda720cea79",
+      "031f6b905947c66829336efc3cee4961",
+      "58f51935f8397cdd804abedaf8b5f3cb",
+      "b8c2155723ecb8310d6a6e5cd262dd95",
+      "b1917b9c10c585eaf203a3893f938fb0",
+      "cbe08da6cc77f6747346b58a25810811",
+      "f867edfc02330696cad66a6c671b50ea",
+      "4c319b1ce36b35b476e9368980ea0e62",
+      "ee0a0eaf021e11d7d92f2fc5a52a469e",
+      "fe6357615ef9ae90491bd3dbc22eee8d",
+      "b0e2582991a61ea1ac4f32f90f3cc0be",
+      "b4f1d526bccefc0d50eb3499e2fa7f00",
+      "7cea9061305b754cf6b32f88ec89ff32",
+      "53a166fe365317f48ecd30299fd6b899",
+      "a1aa330d811798dd1da00c86e6445aac",
+      "47e1840921ebd6fe1749d1ce8c3ba649",
+      "994ee1c2304a2d9e8b9fcf4b8c22e502",
+      "b1b2bd671ed6f1620c856025c98e0471",
+      "fbe585af0ee201c56b5a3011e6910e93",
+      "eefeb0610a9435442ada502fd68c7a97",
+      "9fdcabf6ed22640048984daa517f0a7b",
+      "7d5accf00d19f56e571176eda1123b49",
+      "ac0cc0c511276bf5c1ca5c07849f8c05",
+      "b3621a39ff21f133b88b9de5c2a38abb",
+      "f5b08da30a9823b86f96eb3477718931",
+      "d724cdead7b6d87ef20961be76923456",
+      "f55dea2cac0ddc85531970e4ac41a562",
+      "3490faed8871f442ee7e74ec49bdba52"
+    ],
+    "context_example_hashes": [
+      "0e3a754083c563ffc6895f805771af15",
+      "d62b3ba474ff45b67c613d58ff22f9be",
+      "3794fbad3fd35bb9fffaf7e4f2ae5c8b",
+      "60d47e82a73c58c14b12b57451b0498d",
+      "baa53edecd4f3e2fedbadfe8e31330ab",
+      "5699c1d930ba97dcd37b022292a4e100",
+      "c6f53ce476e23293d2c7f468dae71d63",
+      "b2c1fa62a39f8fbeb1b64935bf025786",
+      "d6fbd6993779736aec8277e45ef4df83",
+      "50bbea46280d48362f3a2a6fa5648546",
+      "ba6655edad7894a618bd7ef82a40e7e5",
+      "190558a17b180e0a295ea809c47df3aa",
+      "71eab31e5eb73d179fb9ee7d74e84a84",
+      "067a7add1b38c365932316ca7946e650",
+      "4aaa287a254ff6b05b3795da6d04a50c"
+    ],
+    "overlapping_hashes": []
+  },
+  "tfidf_analysis": {
+    "vectorizer_params": {
+      "analyzer": "word",
+      "binary": false,
+      "decode_error": "strict",
+      "dtype": "float64",
+      "encoding": "utf-8",
+      "input": "content",
+      "lowercase": true,
+      "max_df": 1.0,
+      "max_features": 5000,
+      "min_df": 1,
+      "ngram_range": "(1, 1)",
+      "norm": "l2",
+      "preprocessor": null,
+      "smooth_idf": true,
+      "stop_words": "english",
+      "strip_accents": null,
+      "sublinear_tf": false,
+      "token_pattern": "(?u)\\b\\w\\w+\\b",
+      "tokenizer": null,
+      "use_idf": true,
+      "vocabulary": null
+    },
+    "vocabulary_size": 5000,
+    "selection_algorithm": "greedy_max_dissimilarity"
+  }
+}
