@@ -3,9 +3,7 @@
 Async baseline robustness testing script with rate limiting.
 
 Runs all combinations (16 prompt variants × N models) asynchronously and saves results.
-Then selects two best performing models and runs context enhancement experiments with flexible model selection support.
-The CLI command to run this script is:
-python run_experiment.py --config config/experiment_config.json --models gpt-4.1,gpt-4o-mini --run-phase2
+This implements Phase 1.5 with flexible model selection support.
 """
 
 import os
@@ -18,6 +16,9 @@ from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Any
 
+# Add the project root to Python path
+project_root = Path(__file__).parent.parent
+sys.path.insert(0, str(project_root))
 
 from deep_learning_final_assignment.core.models import (
     AsyncOpenAIModel,
@@ -40,11 +41,6 @@ from deep_learning_final_assignment.core.utils import (
 from deep_learning_final_assignment.core.context_enhancement import (
     Phase2ContextEnhancement,
 )
-
-
-# Add the project root to Python path
-project_root = Path(__file__).parent.parent
-sys.path.insert(0, str(project_root))
 
 
 def setup_logging(log_level: str = "INFO") -> logging.Logger:

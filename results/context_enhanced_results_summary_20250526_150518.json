@@ -1,0 +1,57 @@
+{
+  "experiment_metadata": {
+    "timestamp": "2025-05-26T15:05:18.501955",
+    "experiment_type": "context_enhanced_execution",
+    "total_models": 1,
+    "variants_per_model": 2
+  },
+  "baseline_reference": {
+    "gpt-4.1": {
+      "variant_id": "v6",
+      "weighted_index": 0.8684444444444444,
+      "custom_accuracy": 0.9577777777777777,
+      "consistency_score": 0.66
+    },
+    "gpt-4o-mini": {
+      "variant_id": "v15",
+      "weighted_index": 0.8744444444444444,
+      "custom_accuracy": 0.9577777777777777,
+      "consistency_score": 0.68
+    }
+  },
+  "enhanced_results": {
+    "gpt-4o-mini": {
+      "baseline_performance": {
+        "variant_id": "v15",
+        "custom_accuracy": 0.9577777777777777,
+        "consistency_score": 0.68,
+        "weighted_index": 0.8744444444444444
+      },
+      "enhanced_performance": {
+        "best_variant_id": "v15_prefix",
+        "custom_accuracy": 0.9888888888888889,
+        "consistency_score": 1.0,
+        "weighted_index": 0.9922222222222221
+      },
+      "improvement": {
+        "accuracy_improvement": 0.0311111111111112,
+        "consistency_improvement": 0.31999999999999995,
+        "weighted_index_improvement": 0.11777777777777776
+      },
+      "all_enhanced_variants": {
+        "v15_prefix": {
+          "custom_accuracy": 0.9888888888888889,
+          "consistency_score": 1.0,
+          "weighted_index": 0.9922222222222221,
+          "context_position": "unknown"
+        },
+        "v15_suffix": {
+          "custom_accuracy": 0.9888888888888889,
+          "consistency_score": 1.0,
+          "weighted_index": 0.9922222222222221,
+          "context_position": "unknown"
+        }
+      }
+    }
+  }
+}

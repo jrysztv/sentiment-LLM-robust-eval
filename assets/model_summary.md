@@ -1,0 +1,6 @@
+## Model Performance Summary
+
+| model       |   custom_accuracy_mean |   custom_accuracy_std |   custom_accuracy_min |   custom_accuracy_max |   model_consistency_mean |   model_consistency_std |   weighted_index_mean |   weighted_index_std |   weighted_index_min |   weighted_index_max |
+|:------------|-----------------------:|----------------------:|----------------------:|----------------------:|-------------------------:|------------------------:|----------------------:|---------------------:|---------------------:|---------------------:|
+| gpt-4.1     |                  0.956 |                 0.002 |                 0.951 |                 0.958 |                    0.912 |                       0 |                 0.943 |                0.001 |                0.94  |                0.944 |
+| gpt-4o-mini |                  0.951 |                 0.005 |                 0.94  |                 0.958 |                    0.902 |                       0 |                 0.936 |                0.004 |                0.929 |                0.941 |

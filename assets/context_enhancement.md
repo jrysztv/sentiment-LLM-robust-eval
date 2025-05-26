@@ -1,0 +1,8 @@
+## Context Enhancement Analysis
+
+| model       | enhanced_variant   | context_position   |   baseline_accuracy |   enhanced_accuracy |   accuracy_improvement |   baseline_consistency |   enhanced_consistency |   consistency_improvement |   baseline_weighted |   enhanced_weighted |   weighted_improvement |
+|:------------|:-------------------|:-------------------|--------------------:|--------------------:|-----------------------:|-----------------------:|-----------------------:|--------------------------:|--------------------:|--------------------:|-----------------------:|
+| gpt-4.1     | v6_prefix          | prefix             |              0.9578 |              0.9561 |                -0.0017 |                 0.9125 |                   0.9  |                   -0.0125 |              0.9442 |              0.9393 |                -0.0049 |
+| gpt-4.1     | v6_suffix          | suffix             |              0.9578 |              0.9539 |                -0.0039 |                 0.9125 |                   0.9  |                   -0.0125 |              0.9442 |              0.9377 |                -0.0065 |
+| gpt-4o-mini | v15_prefix         | prefix             |              0.9578 |              0.9494 |                -0.0083 |                 0.9025 |                   0.88 |                   -0.0225 |              0.9412 |              0.9286 |                -0.0126 |
+| gpt-4o-mini | v15_suffix         | suffix             |              0.9578 |              0.9439 |                -0.0139 |                 0.9025 |                   0.88 |                   -0.0225 |              0.9412 |              0.9247 |                -0.0165 |

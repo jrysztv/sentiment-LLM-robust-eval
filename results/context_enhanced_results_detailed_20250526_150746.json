@@ -1,0 +1,4902 @@
+{
+  "gpt-4.1": {
+    "v6_prefix": {
+      "model_name": "gpt-4.1",
+      "prompt_variant_id": "v6_prefix",
+      "custom_accuracy": 0.9561111111111111,
+      "consistency_score": 1.0,
+      "weighted_index": 0.9692777777777777,
+      "error_breakdown": {
+        "adjacent_errors": 14,
+        "base_neutral_errors": 10,
+        "cross_polarity_errors": 1,
+        "extreme_errors": 0,
+        "invalid_predictions": 0,
+        "correct_predictions": 24
+      },
+      "metadata": {
+        "total_samples": 50,
+        "response_metadata": [
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 437,
+              "total_tokens": 445,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 436,
+              "total_tokens": 443,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 454,
+              "total_tokens": 461,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 446,
+              "total_tokens": 453,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 451,
+              "total_tokens": 458,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 435,
+              "total_tokens": 442,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 438,
+              "total_tokens": 446,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 454,
+              "total_tokens": 461,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 439,
+              "total_tokens": 446,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 432,
+              "total_tokens": 439,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 446,
+              "total_tokens": 453,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 431,
+              "total_tokens": 438,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 472,
+              "total_tokens": 480,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 455,
+              "total_tokens": 462,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 458,
+              "total_tokens": 465,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 457,
+              "total_tokens": 465,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 442,
+              "total_tokens": 449,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 450,
+              "total_tokens": 457,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 473,
+              "total_tokens": 481,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 448,
+              "total_tokens": 455,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 471,
+              "total_tokens": 478,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 476,
+              "total_tokens": 483,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 446,
+              "total_tokens": 453,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 458,
+              "total_tokens": 466,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 447,
+              "total_tokens": 455,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 447,
+              "total_tokens": 454,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 451,
+              "total_tokens": 458,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 440,
+              "total_tokens": 447,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 462,
+              "total_tokens": 469,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 454,
+              "total_tokens": 461,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 441,
+              "total_tokens": 449,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 461,
+              "total_tokens": 468,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 440,
+              "total_tokens": 447,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 439,
+              "total_tokens": 446,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 455,
+              "total_tokens": 462,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 477,
+              "total_tokens": 484,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 458,
+              "total_tokens": 466,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 435,
+              "total_tokens": 442,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 449,
+              "total_tokens": 457,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 436,
+              "total_tokens": 443,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 457,
+              "total_tokens": 464,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 438,
+              "total_tokens": 445,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 443,
+              "total_tokens": 451,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 434,
+              "total_tokens": 441,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 446,
+              "total_tokens": 453,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 439,
+              "total_tokens": 446,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 442,
+              "total_tokens": 449,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 464,
+              "total_tokens": 471,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 455,
+              "total_tokens": 462,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 446,
+              "total_tokens": 453,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          }
+        ]
+      },
+      "predictions": [
+        "Very Positive",
+        "Positive",
+        "Negative",
+        "Negative",
+        "Negative",
+        "Positive",
+        "Very Negative",
+        "Positive",
+        "Positive",
+        "Negative",
+        "Neutral",
+        "Neutral",
+        "Very Negative",
+        "Positive",
+        "Positive",
+        "Very Positive",
+        "Positive",
+        "Positive",
+        "Very Positive",
+        "Negative",
+        "Negative",
+        "Neutral",
+        "Positive",
+        "Very Negative",
+        "Very Negative",
+        "Positive",
+        "Negative",
+        "Positive",
+        "Negative",
+        "Negative",
+        "Very Negative",
+        "Negative",
+        "Negative",
+        "Positive",
+        "Negative",
+        "Negative",
+        "Very Negative",
+        "Neutral",
+        "Very Negative",
+        "Negative",
+        "Positive",
+        "Positive",
+        "Very Negative",
+        "Negative",
+        "Positive",
+        "Negative",
+        "Positive",
+        "Neutral",
+        "Negative",
+        "Positive"
+      ],
+      "true_labels": [
+        "Very Positive",
+        "Very Positive",
+        "Negative",
+        "Negative",
+        "Neutral",
+        "Neutral",
+        "Very Negative",
+        "Positive",
+        "Positive",
+        "Negative",
+        "Neutral",
+        "Neutral",
+        "Very Negative",
+        "Positive",
+        "Positive",
+        "Positive",
+        "Very Positive",
+        "Very Positive",
+        "Very Positive",
+        "Very Negative",
+        "Neutral",
+        "Positive",
+        "Very Positive",
+        "Very Negative",
+        "Negative",
+        "Very Positive",
+        "Very Negative",
+        "Positive",
+        "Positive",
+        "Neutral",
+        "Very Negative",
+        "Negative",
+        "Very Negative",
+        "Positive",
+        "Negative",
+        "Very Negative",
+        "Very Negative",
+        "Negative",
+        "Very Negative",
+        "Neutral",
+        "Very Positive",
+        "Neutral",
+        "Negative",
+        "Negative",
+        "Very Positive",
+        "Neutral",
+        "Neutral",
+        "Very Positive",
+        "Negative",
+        "Positive"
+      ]
+    },
+    "v6_suffix": {
+      "model_name": "gpt-4.1",
+      "prompt_variant_id": "v6_suffix",
+      "custom_accuracy": 0.9538888888888889,
+      "consistency_score": 1.0,
+      "weighted_index": 0.9677222222222222,
+      "error_breakdown": {
+        "adjacent_errors": 14,
+        "base_neutral_errors": 11,
+        "cross_polarity_errors": 1,
+        "extreme_errors": 0,
+        "invalid_predictions": 0,
+        "correct_predictions": 23
+      },
+      "metadata": {
+        "total_samples": 50,
+        "response_metadata": [
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 436,
+              "total_tokens": 444,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 435,
+              "total_tokens": 442,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 453,
+              "total_tokens": 460,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 445,
+              "total_tokens": 453,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 450,
+              "total_tokens": 457,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 434,
+              "total_tokens": 441,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 437,
+              "total_tokens": 445,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 453,
+              "total_tokens": 460,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 438,
+              "total_tokens": 445,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 431,
+              "total_tokens": 438,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 445,
+              "total_tokens": 452,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 430,
+              "total_tokens": 437,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 471,
+              "total_tokens": 479,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 454,
+              "total_tokens": 461,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 457,
+              "total_tokens": 464,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 456,
+              "total_tokens": 464,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 441,
+              "total_tokens": 448,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 449,
+              "total_tokens": 456,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 472,
+              "total_tokens": 480,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 447,
+              "total_tokens": 454,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 470,
+              "total_tokens": 477,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 475,
+              "total_tokens": 482,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 445,
+              "total_tokens": 452,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 457,
+              "total_tokens": 465,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 446,
+              "total_tokens": 454,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 446,
+              "total_tokens": 453,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 450,
+              "total_tokens": 458,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 439,
+              "total_tokens": 446,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 461,
+              "total_tokens": 468,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 453,
+              "total_tokens": 460,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 440,
+              "total_tokens": 448,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 460,
+              "total_tokens": 467,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 439,
+              "total_tokens": 447,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 438,
+              "total_tokens": 445,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 454,
+              "total_tokens": 462,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 476,
+              "total_tokens": 483,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 457,
+              "total_tokens": 465,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 434,
+              "total_tokens": 441,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 448,
+              "total_tokens": 456,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 435,
+              "total_tokens": 442,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 456,
+              "total_tokens": 463,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 437,
+              "total_tokens": 444,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 442,
+              "total_tokens": 450,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 433,
+              "total_tokens": 440,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 445,
+              "total_tokens": 453,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 438,
+              "total_tokens": 445,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 441,
+              "total_tokens": 448,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 463,
+              "total_tokens": 470,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 454,
+              "total_tokens": 461,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 445,
+              "total_tokens": 453,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4.1-2025-04-14",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          }
+        ]
+      },
+      "predictions": [
+        "Very Positive",
+        "Positive",
+        "Negative",
+        "Very Negative",
+        "Negative",
+        "Negative",
+        "Very Negative",
+        "Positive",
+        "Positive",
+        "Neutral",
+        "Positive",
+        "Neutral",
+        "Very Negative",
+        "Positive",
+        "Positive",
+        "Very Positive",
+        "Positive",
+        "Positive",
+        "Very Positive",
+        "Negative",
+        "Negative",
+        "Neutral",
+        "Positive",
+        "Very Negative",
+        "Very Negative",
+        "Positive",
+        "Very Negative",
+        "Positive",
+        "Negative",
+        "Neutral",
+        "Very Negative",
+        "Negative",
+        "Very Negative",
+        "Positive",
+        "Very Negative",
+        "Negative",
+        "Very Negative",
+        "Neutral",
+        "Very Negative",
+        "Negative",
+        "Positive",
+        "Positive",
+        "Very Negative",
+        "Negative",
+        "Very Positive",
+        "Negative",
+        "Positive",
+        "Neutral",
+        "Negative",
+        "Very Positive"
+      ],
+      "true_labels": [
+        "Very Positive",
+        "Very Positive",
+        "Negative",
+        "Negative",
+        "Neutral",
+        "Neutral",
+        "Very Negative",
+        "Positive",
+        "Positive",
+        "Negative",
+        "Neutral",
+        "Neutral",
+        "Very Negative",
+        "Positive",
+        "Positive",
+        "Positive",
+        "Very Positive",
+        "Very Positive",
+        "Very Positive",
+        "Very Negative",
+        "Neutral",
+        "Positive",
+        "Very Positive",
+        "Very Negative",
+        "Negative",
+        "Very Positive",
+        "Very Negative",
+        "Positive",
+        "Positive",
+        "Neutral",
+        "Very Negative",
+        "Negative",
+        "Very Negative",
+        "Positive",
+        "Negative",
+        "Very Negative",
+        "Very Negative",
+        "Negative",
+        "Very Negative",
+        "Neutral",
+        "Very Positive",
+        "Neutral",
+        "Negative",
+        "Negative",
+        "Very Positive",
+        "Neutral",
+        "Neutral",
+        "Very Positive",
+        "Negative",
+        "Positive"
+      ]
+    }
+  },
+  "gpt-4o-mini": {
+    "v15_prefix": {
+      "model_name": "gpt-4o-mini",
+      "prompt_variant_id": "v15_prefix",
+      "custom_accuracy": 0.9494444444444444,
+      "consistency_score": 1.0,
+      "weighted_index": 0.9646111111111111,
+      "error_breakdown": {
+        "adjacent_errors": 14,
+        "base_neutral_errors": 13,
+        "cross_polarity_errors": 1,
+        "extreme_errors": 0,
+        "invalid_predictions": 0,
+        "correct_predictions": 21
+      },
+      "metadata": {
+        "total_samples": 50,
+        "response_metadata": [
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 435,
+              "total_tokens": 443,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 434,
+              "total_tokens": 441,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 452,
+              "total_tokens": 459,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 444,
+              "total_tokens": 451,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 449,
+              "total_tokens": 456,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 433,
+              "total_tokens": 440,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 436,
+              "total_tokens": 444,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 452,
+              "total_tokens": 459,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 437,
+              "total_tokens": 444,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 430,
+              "total_tokens": 437,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 444,
+              "total_tokens": 451,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 429,
+              "total_tokens": 436,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 470,
+              "total_tokens": 478,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 453,
+              "total_tokens": 460,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 456,
+              "total_tokens": 463,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 455,
+              "total_tokens": 462,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 440,
+              "total_tokens": 447,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 448,
+              "total_tokens": 455,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 471,
+              "total_tokens": 479,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 446,
+              "total_tokens": 453,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 469,
+              "total_tokens": 476,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 474,
+              "total_tokens": 481,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 444,
+              "total_tokens": 451,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 456,
+              "total_tokens": 464,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 445,
+              "total_tokens": 453,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 445,
+              "total_tokens": 452,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 449,
+              "total_tokens": 456,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 438,
+              "total_tokens": 445,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 460,
+              "total_tokens": 467,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 452,
+              "total_tokens": 459,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 439,
+              "total_tokens": 446,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 459,
+              "total_tokens": 466,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 438,
+              "total_tokens": 445,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 437,
+              "total_tokens": 444,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 453,
+              "total_tokens": 460,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 475,
+              "total_tokens": 482,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 456,
+              "total_tokens": 464,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 433,
+              "total_tokens": 440,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 447,
+              "total_tokens": 455,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 434,
+              "total_tokens": 441,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 455,
+              "total_tokens": 462,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 436,
+              "total_tokens": 443,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 441,
+              "total_tokens": 449,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 432,
+              "total_tokens": 439,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 444,
+              "total_tokens": 451,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 437,
+              "total_tokens": 444,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 440,
+              "total_tokens": 447,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 462,
+              "total_tokens": 469,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 453,
+              "total_tokens": 460,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 444,
+              "total_tokens": 451,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          }
+        ]
+      },
+      "predictions": [
+        "Very Positive",
+        "Positive",
+        "Negative",
+        "Negative",
+        "Negative",
+        "Negative",
+        "Very Negative",
+        "Positive",
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Very Negative",
+        "Positive",
+        "Positive",
+        "Positive",
+        "Positive",
+        "Positive",
+        "Very Positive",
+        "Negative",
+        "Negative",
+        "Neutral",
+        "Positive",
+        "Very Negative",
+        "Very Negative",
+        "Positive",
+        "Negative",
+        "Positive",
+        "Negative",
+        "Negative",
+        "Negative",
+        "Neutral",
+        "Negative",
+        "Positive",
+        "Negative",
+        "Negative",
+        "Very Negative",
+        "Neutral",
+        "Very Negative",
+        "Negative",
+        "Positive",
+        "Positive",
+        "Very Negative",
+        "Negative",
+        "Positive",
+        "Negative",
+        "Positive",
+        "Neutral",
+        "Negative",
+        "Positive"
+      ],
+      "true_labels": [
+        "Very Positive",
+        "Very Positive",
+        "Negative",
+        "Negative",
+        "Neutral",
+        "Neutral",
+        "Very Negative",
+        "Positive",
+        "Positive",
+        "Negative",
+        "Neutral",
+        "Neutral",
+        "Very Negative",
+        "Positive",
+        "Positive",
+        "Positive",
+        "Very Positive",
+        "Very Positive",
+        "Very Positive",
+        "Very Negative",
+        "Neutral",
+        "Positive",
+        "Very Positive",
+        "Very Negative",
+        "Negative",
+        "Very Positive",
+        "Very Negative",
+        "Positive",
+        "Positive",
+        "Neutral",
+        "Very Negative",
+        "Negative",
+        "Very Negative",
+        "Positive",
+        "Negative",
+        "Very Negative",
+        "Very Negative",
+        "Negative",
+        "Very Negative",
+        "Neutral",
+        "Very Positive",
+        "Neutral",
+        "Negative",
+        "Negative",
+        "Very Positive",
+        "Neutral",
+        "Neutral",
+        "Very Positive",
+        "Negative",
+        "Positive"
+      ]
+    },
+    "v15_suffix": {
+      "model_name": "gpt-4o-mini",
+      "prompt_variant_id": "v15_suffix",
+      "custom_accuracy": 0.9438888888888889,
+      "consistency_score": 1.0,
+      "weighted_index": 0.9607222222222223,
+      "error_breakdown": {
+        "adjacent_errors": 11,
+        "base_neutral_errors": 10,
+        "cross_polarity_errors": 1,
+        "extreme_errors": 0,
+        "invalid_predictions": 0,
+        "correct_predictions": 26
+      },
+      "metadata": {
+        "total_samples": 50,
+        "response_metadata": [
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 434,
+              "total_tokens": 442,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 433,
+              "total_tokens": 441,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 451,
+              "total_tokens": 458,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 443,
+              "total_tokens": 450,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 448,
+              "total_tokens": 455,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 432,
+              "total_tokens": 439,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 435,
+              "total_tokens": 443,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 451,
+              "total_tokens": 458,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 436,
+              "total_tokens": 443,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 429,
+              "total_tokens": 436,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 443,
+              "total_tokens": 450,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 428,
+              "total_tokens": 435,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 469,
+              "total_tokens": 477,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 452,
+              "total_tokens": 459,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 455,
+              "total_tokens": 462,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 454,
+              "total_tokens": 461,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 439,
+              "total_tokens": 446,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 447,
+              "total_tokens": 454,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 470,
+              "total_tokens": 478,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 445,
+              "total_tokens": 452,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 468,
+              "total_tokens": 475,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 473,
+              "total_tokens": 480,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 443,
+              "total_tokens": 450,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 455,
+              "total_tokens": 463,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 444,
+              "total_tokens": 452,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 444,
+              "total_tokens": 451,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 448,
+              "total_tokens": 456,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 437,
+              "total_tokens": 444,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 459,
+              "total_tokens": 466,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 451,
+              "total_tokens": 458,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 438,
+              "total_tokens": 446,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 458,
+              "total_tokens": 465,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 437,
+              "total_tokens": 444,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 436,
+              "total_tokens": 443,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 452,
+              "total_tokens": 460,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 474,
+              "total_tokens": 481,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 455,
+              "total_tokens": 463,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 432,
+              "total_tokens": 439,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 446,
+              "total_tokens": 454,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 433,
+              "total_tokens": 440,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 454,
+              "total_tokens": 461,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 435,
+              "total_tokens": 442,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 8,
+              "prompt_tokens": 440,
+              "total_tokens": 448,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 431,
+              "total_tokens": 438,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 443,
+              "total_tokens": 450,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 436,
+              "total_tokens": 443,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 439,
+              "total_tokens": 446,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 461,
+              "total_tokens": 468,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 452,
+              "total_tokens": 459,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          },
+          {
+            "usage": {
+              "completion_tokens": 7,
+              "prompt_tokens": 443,
+              "total_tokens": 450,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+              }
+            },
+            "finish_reason": "stop",
+            "model": "gpt-4o-mini-2024-07-18",
+            "temperature": 0.1,
+            "max_tokens": 150,
+            "retry_attempt": 0
+          }
+        ]
+      },
+      "predictions": [
+        "Very Positive",
+        "Very Positive",
+        "Negative",
+        "Negative",
+        "Negative",
+        "Negative",
+        "Very Negative",
+        "Positive",
+        "Positive",
+        "Neutral",
+        "Negative",
+        "Neutral",
+        "Very Negative",
+        "Positive",
+        "Positive",
+        "Positive",
+        "Positive",
+        "Positive",
+        "Very Positive",
+        "Negative",
+        "Negative",
+        "Positive",
+        "Positive",
+        "Very Negative",
+        "Very Negative",
+        "Neutral",
+        "Very Negative",
+        "Positive",
+        "Negative",
+        "Negative",
+        "Very Negative",
+        "Neutral",
+        "Negative",
+        "Positive",
+        "Very Negative",
+        "Negative",
+        "Very Negative",
+        "Negative",
+        "Very Negative",
+        "Negative",
+        "Positive",
+        "Neutral",
+        "Very Negative",
+        "Negative",
+        "Positive",
+        "Negative",
+        "Negative",
+        "Negative",
+        "Negative",
+        "Positive"
+      ],
+      "true_labels": [
+        "Very Positive",
+        "Very Positive",
+        "Negative",
+        "Negative",
+        "Neutral",
+        "Neutral",
+        "Very Negative",
+        "Positive",
+        "Positive",
+        "Negative",
+        "Neutral",
+        "Neutral",
+        "Very Negative",
+        "Positive",
+        "Positive",
+        "Positive",
+        "Very Positive",
+        "Very Positive",
+        "Very Positive",
+        "Very Negative",
+        "Neutral",
+        "Positive",
+        "Very Positive",
+        "Very Negative",
+        "Negative",
+        "Very Positive",
+        "Very Negative",
+        "Positive",
+        "Positive",
+        "Neutral",
+        "Very Negative",
+        "Negative",
+        "Very Negative",
+        "Positive",
+        "Negative",
+        "Very Negative",
+        "Very Negative",
+        "Negative",
+        "Very Negative",
+        "Neutral",
+        "Very Positive",
+        "Neutral",
+        "Negative",
+        "Negative",
+        "Very Positive",
+        "Neutral",
+        "Neutral",
+        "Very Positive",
+        "Negative",
+        "Positive"
+      ]
+    }
+  }
+}

@@ -11,7 +11,7 @@ from typing import Dict, List
 from deep_learning_final_assignment.core.context_enhancement import (
     ContextSelector,
     ContextEnhancedVariantGenerator,
-    Phase2ContextEnhancement,
+    ContextEnhancement,
     ContextExample,
     EnhancedVariant,
 )
@@ -298,9 +298,7 @@ class TestPhase2ContextEnhancement:
             DataSample(text="Bad test film", label="Negative", encoding=-2),
         ]
 
-        phase2_system = Phase2ContextEnhancement(
-            mock_sst5_loader, mock_sentiment_prompts
-        )
+        phase2_system = ContextEnhancement(mock_sst5_loader, mock_sentiment_prompts)
 
         # Mock the context selector methods
         with patch.object(
@@ -361,9 +359,7 @@ class TestPhase2ContextEnhancement:
         self, mock_sst5_loader, mock_sentiment_prompts, tmp_path
     ):
         """Test Phase 2 results saving."""
-        phase2_system = Phase2ContextEnhancement(
-            mock_sst5_loader, mock_sentiment_prompts
-        )
+        phase2_system = ContextEnhancement(mock_sst5_loader, mock_sentiment_prompts)
 
         # Mock phase2 results
         from deep_learning_final_assignment.core.context_enhancement import (
