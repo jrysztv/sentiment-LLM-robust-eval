@@ -88,6 +88,15 @@ poetry run python scripts/run_experiment.py --models gpt-4o-mini --n-samples 10 
 
 ## 📊 Experiment Pipeline
 
+### **Dataset: Stanford Sentiment Treebank v5 (SST-5)**
+- **Source**: HuggingFace `SetFit/sst5` dataset
+- **Labels**: 5-class sentiment (Very Negative, Negative, Neutral, Positive, Very Positive)
+- **Split Usage**:
+  - `train` split: Context examples for Phase 2 enhancement (15 examples total)
+  - `validation` split: Test samples for evaluation (50 balanced samples)
+  - `test` split: Reserved (not used in current design)
+- **Data Separation**: Zero contamination between context examples and test samples
+
 ### Phase 1: Baseline Robustness Testing
 1. **Data Loading**: SST-5 sentiment dataset (balanced sampling from validation split)
 2. **Prompt Generation**: 16 systematic variants across 4 dimensions
