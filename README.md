@@ -1,17 +1,19 @@
-# CEU Deep Learning Final Assignment: Prompt Perturbation Robustness Testing
+# Prompt Perturbation Robustness Testing for Large Language Models
 
-A comprehensive robustness testing framework for foundation models, evaluating how model performance varies across systematic prompt variations. Built with Python, featuring modern development practices, and robust testing infrastructure.
+**CEU MSBA Deep Learning Final Assignment**  
+*Author: Istvan Peter Jaray*
 
-## 🎯 Project Overview
+A comprehensive research framework for evaluating how foundation models respond to systematic variations in prompt phrasing. This project implements robustness testing through prompt perturbation analysis, comparing model consistency and accuracy across 16 different prompt formulations.
 
-This project implements systematic robustness testing for large language models through prompt perturbation analysis. We evaluate model consistency and accuracy across 16 different prompt formulations to understand how sensitive foundation models are to variations in prompt phrasing.
+## 🎯 Research Question
 
-### ✅ **Phase 1.5 COMPLETED** - Enhanced Model Flexibility & Consistency Analysis
-- **Flexible Model Selection**: Runtime model switching via CLI (`--models gpt-4.1,gpt-4o-mini`)
-- **Corrected Consistency Calculation**: Per-input consistency as max(prediction_distribution), model consistency as average
-- **Enhanced Data Persistence**: Complete audit trails with formatted prompts, raw responses, and execution metadata
-- **Unicode-Safe Logging**: Full emoji support with Windows compatibility
-- **Comprehensive Testing**: 19 tests covering enhanced functionality with 100% pass rate
+**"How robust are foundation models when prompts are slightly modified?"**
+
+We test this by systematically varying prompts across 4 dimensions:
+- **Formality**: Formal vs Casual language
+- **Phrasing**: Imperative vs Question format  
+- **Order**: Task-first vs Text-first presentation
+- **Synonyms**: Technical vs Common terminology
 
 ## 🚀 Quick Start
 
@@ -19,183 +21,171 @@ This project implements systematic robustness testing for large language models 
 - Python 3.11+
 - Poetry (for dependency management)
 - OpenAI API key (for GPT models)
-- Optional: Ollama (for local models)
 
 ### Installation
 
-1. Clone the repository:
+1. **Clone and setup**:
 ```bash
-git clone <repository-url>
-cd deep-learning-final-assignment
-```
-
-2. Install dependencies using Poetry:
-```bash
+git clone https://github.com/jrysztv/sentiment-LLM-robust-eval.git
+cd sentiment-LLM-robust-eval
 poetry install
 ```
 
-3. Set up environment variables:
+2. **Configure API access**:
 ```bash
-export OPENAI_API_KEY=your_openai_api_key_here
+# Create .env file
+echo "OPENAI_API_KEY=your_openai_api_key_here" > .env
 ```
 
-4. Activate the virtual environment:
+3. **Run the complete experiment**:
 ```bash
-poetry shell
+# Primary research comparison: GPT-4.1 vs GPT-4o-mini with context enhancement
+poetry run python scripts/run_experiment.py --models gpt-4.1,gpt-4o-mini --n-samples 50 --run-phase2
+
+# Quick test run (smaller sample)
+poetry run python scripts/run_experiment.py --models gpt-4o-mini --n-samples 10 --run-phase2
 ```
 
-### Running Robustness Tests
+## 📊 Experiment Pipeline
 
-#### Phase 1.5 Enhanced Baseline Testing
+### Phase 1: Baseline Robustness Testing
+1. **Data Loading**: SST-5 sentiment dataset (balanced sampling from validation split)
+2. **Prompt Generation**: 16 systematic variants across 4 dimensions
+3. **Model Evaluation**: Tests all model-prompt combinations asynchronously
+4. **Consistency Calculation**: Measures prediction agreement across variants
 
-**Primary Research Focus: GPT-4.1 vs GPT-4o-mini comparison**
-```bash
-poetry run python scripts/run_baseline_enhanced.py --config config/enhanced_experiment_config.json --models gpt-4.1,gpt-4o-mini --n-samples 50
+### Phase 2: Context Enhancement (Optional)
+1. **Best Variant Selection**: Identifies highest-performing prompt per model
+2. **Context Selection**: Chooses diverse examples using length + TF-IDF diversity
+3. **Enhanced Prompts**: Creates prefix/suffix context-enriched variants
+4. **Order Assessment**: Determines optimal prompt element ordering
+
+### Data Pipeline
+```
+SST-5 Dataset → Balanced Sampling → 16 Prompt Variants → Model Evaluation → Results Storage
+     ↓                 ↓                    ↓                    ↓              ↓
+Train/Validation   50 samples       GPT-4.1 + GPT-4o-mini   Async Batch    JSON Files
+    splits        (balanced)         (32 combinations)      Processing     (Timestamped)
 ```
 
-**Quick Testing with GPT-4o-mini only**
-```bash
-poetry run python scripts/run_baseline_enhanced.py --config config/enhanced_experiment_config.json --models gpt-4o-mini --n-samples 10
+## 📁 Results & Output
+
+### Experiment Results Location
+All experiment outputs are saved in the `results/` directory with timestamp-based filenames:
+
+```
+results/
+├── baseline_async_results_detailed_YYYYMMDD_HHMMSS.json    # Complete model predictions and metadata
+├── baseline_async_results_summary_YYYYMMDD_HHMMSS.json     # Performance summaries by model
+├── context_selection_audit_YYYYMMDD_HHMMSS.json           # Phase 2: Context selection process
+└── context_enhanced_prompts_YYYYMMDD_HHMMSS.json          # Phase 2: Enhanced prompt variants
 ```
 
-**All configuration options**
-```bash
-poetry run python scripts/run_baseline_enhanced.py --help
-```
+### Key Result Files
 
-#### Output Files
-- `detailed_execution_data_TIMESTAMP.json` - Complete audit trail with per-input analysis
-- `baseline_results_detailed_TIMESTAMP.json` - Enhanced results with dimensional metadata  
-- `baseline_results_summary_TIMESTAMP.json` - Model performance summaries
+**Detailed Results** (`baseline_async_results_detailed_*.json`):
+- Individual predictions for every model-prompt-input combination
+- Execution metadata (response times, token usage)
+- Error breakdowns and accuracy metrics
+
+**Context Enhancement Results** (Phase 2 files):
+- Best variant selection rationale
+- Context example selection with diversity metrics
+- Prefix vs suffix ordering comparison
+
+### Analysis Ready
+The experiment generates complete datasets ready for analysis. **Next step**: Create analysis notebook (`analysis.ipynb`) to visualize:
+- Model robustness profiles across prompt dimensions
+- Consistency patterns and failure modes
+- Context enhancement effectiveness
+- Prompt engineering insights
 
 ## 🧪 Testing
 
-This project uses pytest for comprehensive testing with coverage reporting.
+Comprehensive test suite with 208+ tests covering all functionality:
 
-### Run All Tests
 ```bash
+# Run all tests
 poetry run pytest
-```
 
-### Run Tests with Verbose Output
-```bash
-poetry run pytest -v
-```
+# Run with coverage
+poetry run pytest --cov=deep_learning_final_assignment
 
-### Run Only Unit Tests
-```bash
-poetry run pytest -m unit
-```
-
-### Run Only Integration Tests
-```bash
-poetry run pytest -m integration
-```
-
-### Skip Slow Tests
-```bash
+# Fast tests only
 poetry run pytest -m "not slow"
 ```
 
-### Generate Coverage Report
+## ⚙️ Configuration
+
+### Model Selection
 ```bash
-poetry run pytest --cov=deep_learning_final_assignment --cov-report=html
+# Compare specific models
+--models gpt-4.1,gpt-4o-mini
+
+# Single model testing  
+--models gpt-4o-mini
+
+# Local model support (Ollama)
+--models qwen3:4b
 ```
 
-### Test Configuration
+### Experiment Parameters
+- `--n-samples`: Number of test samples (default: from config)
+- `--run-phase2`: Include context enhancement analysis
+- `--log-level`: Logging verbosity (DEBUG, INFO, WARNING, ERROR)
 
-The project is configured with:
-- **Coverage threshold**: 80% minimum
-- **Test discovery**: Automatic discovery of `test_*.py` and `*_test.py` files
-- **Markers**: `unit`, `integration`, `slow`, `requires_api`
-- **HTML coverage reports**: Generated in `htmlcov/` directory
-
-## 📁 Project Structure
+## 📦 Project Structure
 
 ```
-deep-learning-final-assignment/
-├── deep_learning_final_assignment/   # Main package
-│   ├── __init__.py                   # Package initialization
-│   └── ...                          # Module files
-├── tests/                            # Test suite
-│   ├── __init__.py                   # Test package init
-│   ├── conftest.py                   # Pytest configuration & fixtures
-│   ├── test_package.py               # Basic package tests
-│   └── data/                         # Test data directory
-├── analysis.ipynb                    # Jupyter notebook for analysis
-├── pyproject.toml                    # Project configuration
-├── poetry.lock                       # Dependency lock file
-└── README.md                         # This file
+sentiment-LLM-robust-eval/
+├── scripts/
+│   └── run_experiment.py              # 🚀 Main experiment entry point
+├── deep_learning_final_assignment/    # Core framework
+│   ├── core/
+│   │   ├── models/                    # Model interfaces (OpenAI, Ollama)
+│   │   ├── prompts/                   # 16-variant prompt system
+│   │   ├── evaluation/                # Metrics and consistency calculation
+│   │   ├── context_enhancement/       # Phase 2 context system
+│   │   └── utils/                     # Logging and utilities
+│   └── ...
+├── tests/                             # 208+ comprehensive tests
+├── config/                            # Model and experiment configuration
+├── results/                           # 📊 Experiment outputs (timestamped)
+└── analysis.ipynb                     # 📈 Analysis notebook (to be created)
 ```
 
-## 🛠 Development
+## 🎯 Research Focus
 
-### Adding Dependencies
+**Primary Comparison**: GPT-4.1 vs GPT-4o-mini robustness across systematic prompt variations
 
-For runtime dependencies:
-```bash
-poetry add <package-name>
-```
+**Evaluation Metrics**:
+- **Custom Accuracy**: Polarity-weighted encoding with penalty for extreme errors
+- **Consistency Score**: Prediction agreement across prompt variants
+- **Weighted Index**: Combined accuracy + consistency ranking (70% / 30%)
 
-For development dependencies:
-```bash
-poetry add --group dev <package-name>
-```
+**Expected Insights**:
+- Which prompt formulations are most robust?
+- How do different models respond to prompt variations?
+- Does context enhancement improve consistency?
+- What are the optimal prompt engineering strategies?
 
-### Code Quality
+## 🔧 Development
 
-This project follows Python best practices:
-- Type hints where appropriate
-- Comprehensive test coverage (80%+ required)
-- Clear documentation
-- Modular design
+### Dependencies
+- **ML/NLP**: transformers, datasets, torch, scikit-learn
+- **API Integration**: openai, ollama  
+- **Evaluation**: pandas, sentence-transformers
+- **Testing**: pytest, pytest-cov, pytest-asyncio
 
-## 📦 Dependencies
-
-### Runtime Dependencies
-- **Core ML/NLP**: transformers, datasets, torch, scikit-learn, sentence-transformers
-- **API Integration**: openai, ollama
-- **Evaluation**: rouge-score, pandas, python-dotenv, jupyter
-- **PEFT**: peft, accelerate
-- **Testing**: pytest, pytest-cov, pytest-mock, pytest-asyncio
-
-### Development Dependencies
-- **pytest**: Testing framework
-- **pytest-cov**: Coverage reporting
-- **pytest-mock**: Mocking utilities
-- **pytest-asyncio**: Async testing support
-
-## 🎯 Project Goals
-
-This is a deep learning final assignment project focusing on:
-- **Robustness Testing**: Evaluate how foundation models respond to systematic variations in prompt phrasing
-- **Consistency Analysis**: Measure prediction consistency across 16 prompt variants using 4 systematic dimensions
-- **Model Comparison**: Compare GPT-4.1 vs GPT-4o-mini performance across prompt variations
-- **Enhanced Evaluation**: Custom accuracy metrics with polarity-weighted encoding and comprehensive data persistence
-
-## 📊 Analysis
-
-The project provides comprehensive analysis capabilities:
-- **Dimensional Analysis**: Compare formal vs casual, imperative vs question, task-first vs text-first, synonym variations
-- **Consistency Patterns**: Per-input and model-level consistency calculations
-- **Performance Metrics**: Custom accuracy with penalty system for polarity mistakes
-- **Complete Audit Trails**: Full execution data with formatted prompts, raw responses, and metadata
-
-## 🤝 Contributing
-
+### Contributing
 1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Make your changes
-4. Run tests: `poetry run pytest`
-5. Commit your changes: `git commit -am 'Add feature'`
-6. Push to the branch: `git push origin feature-name`
-7. Submit a pull request
+2. Create feature branch: `git checkout -b feature-name`  
+3. Run tests: `poetry run pytest`
+4. Submit pull request
 
-## 📝 License
+---
 
-[Add license information]
-
-## 👨‍💻 Author
-
-**Istvan Peter Jaray**  
-Email: istvanpeterjaray@gmail.com
+**Status**: ✅ Experiment framework complete and tested  
+**Next Step**: Create analysis notebook to evaluate experiment results  
+**Course**: CEU MSBA Deep Learning (Prof. Eduardo Arino de la Rubia)  
+**Deadline**: May 25, 2025
